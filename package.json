@@ -1,0 +1,48 @@
+{
+	"name": "uijs",
+	"description": "is a ui javascript systeam",
+	"version": "1.0.0",
+	"main": "",
+	"bin": "./build",
+	"author": "github: TheWitcher1991 <alikzoy@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TheWitcher1991/uijs.git"
+	},
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack --mode production",
+		"watch": "webpack --mode production -w"
+	},
+	"private": false,
+	"eslintIgnore": [
+		"build/**",
+		"node_modules/**"
+	],
+	"engines": {
+		"node": ">= 14.x",
+		"npm": ">= 7.x",
+		"yarn": ">= 1.x"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.16.8",
+		"@babel/core": "^7.16.10",
+		"@babel/node": "^7.16.8",
+		"@babel/plugin-proposal-class-properties": "^7.16.7",
+		"@babel/preset-env": "^7.16.11",
+		"babel-loader": "^8.2.3",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.5.1",
+		"eslint": "^8.7.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-babel": "^5.3.1",
+		"eslint-plugin-import": "^2.25.4",
+		"mini-css-extract-plugin": "^2.5.2",
+		"requirejs": "^2.3.6",
+		"sass": "^1.49.0",
+		"sass-loader": "^12.4.0",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.66.0",
+		"webpack-cli": "^4.9.1"
+	}
+}
